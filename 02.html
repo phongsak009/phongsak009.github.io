@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>คำถาม</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #ddd 1px solid;
+        }
+        header h1 {
+            text-align: center;
+            margin: 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            float: left; /* จัดให้อยู่ด้านซ้าย */
+        }
+        nav ul li {
+            display: inline-block;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .main-content {
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+        .main-content h2 {
+            text-align: center;
+            color: #333;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        .question {
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #fafafa;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+        .question h3 {
+            margin: 0 0 10px;
+            color: #555;
+        }
+        .question p {
+            margin: 0;
+            padding: 0;
+        }
+        .options {
+            margin-top: 10px;
+        }
+        .options p {
+            margin: 5px 0;
+        }
+        .options p.correct {
+            color: #28a745;
+            font-weight: bold;
+        }
+        .options p.incorrect {
+            color: #dc3545;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>วิสาขบูชา</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">หน้าแรก</a></li>
+                    <li><a href="01.html">ข้อมูล</a></li>
+                    <li><a href="02.html">คำถาม</a></li>
+                    <li><a href="03.html">ผู้จัดทำ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container main-content">
+        <h2>คำถามเกี่ยวกับวันวิสาขบูชา</h2>
+        <div class="question">
+            <h3>คำถามที่ 1</h3>
+            <p>วันวิสาขบูชาเป็นวันที่ระลึกถึงเหตุการณ์สำคัญอะไรบ้างในชีวิตของพระพุทธเจ้า</p>
+            <div class="options">
+                <p class="correct">ก. การประสูติ, ตรัสรู้, และปรินิพพาน</p>
+                <p>ข. การปลงอาบัติ, ตรัสรู้, และปรินิพพาน</p>
+                <p>ค. การตรัสรู้, แสดงปฐมเทศนา, และปรินิพพาน</p>
+                <p>ง. การประสูติ, ปลงอาบัติ, และตรัสรู้</p>
+            </div>
+        </div>
+
+        <div class="question">
+            <h3>คำถามที่ 2</h3>
+            <p>พระพุทธเจ้าประสูติที่ไหน</p>
+            <div class="options">
+                <p>ก. พุทธคยา</p>
+                <p class="correct">ข. สวนลุมพินีวัน</p>
+                <p>ค. กุสินารา</p>
+                <p>ง. อุรุเวลาเสนานิคม</p>
+            </div>
+        </div>
+
+        <div class="question">
+            <h3>คำถามที่ 3</h3>
+            <p>พระพุทธเจ้าตรัสรู้ใต้ต้นอะไร</p>
+            <div class="options">
+                <p>ก. ต้นไทร</p>
+                <p class="correct">ข. ต้นโพธิ์</p>
+                <p>ค. ต้นมะเดื่อ</p>
+                <p>ง. ต้นนิโครธ</p>
+            </div>
+        </div>
+
+        <div class="question">
+            <h3>คำถามที่ 4</h3>
+            <p>พระพุทธเจ้าปรินิพพานที่ไหน</p>
+            <div class="options">
+                <p class="correct">ก. กุสินารา</p>
+                <p>ข. ลุมพินี</p>
+                <p>ค. พุทธคยา</p>
+                <p>ง. สาวัตถี</p>
+            </div>
+        </div>
+
+        <div class="question">
+            <h3>คำถามที่ 5</h3>
+            <p>กิจกรรมใดที่พุทธศาสนิกชนนิยมทำในวันวิสาขบูชา</p>
+            <div class="options">
+                <p>ก. การปลงอาบัติ</p>
+                <p class="correct">ข. การทำบุญตักบาตร</p>
+                <p>ค. การแสดงธรรมเทศนา</p>
+                <p>ง. การปฏิบัติวิปัสสนา</p>
+            </div>
+        </div>
+
+        <div class="question">
+            <h3>คำถามที่ 6</h3>
+            <p>การเวียนเทียนในวันวิสาขบูชามีความหมายอย่างไร</p>
+            <div class="options">
+                <p>ก. การปลงอาบัติ</p>
+                <p>ข. การสร้างวัดใหม่</p>
+                <p class="correct">ค. การแสดงความเคารพต่อพระพุทธเจ้า พระธรรม และพระสงฆ์</p>
+                <p>ง. การปฏิบัติธรรมภายในวัด</p>
+            </div>
+        </div>
+
+        <div class="question">
+            <h3>คำถามที่ 7</h3>
+            <p>วันวิสาขบูชาได้รับการยอมรับในระดับสากลเมื่อปีไหน</p>
+            <div class="options">
+                <p>ก. พ.ศ. 2540</p>
+                <p>ข. พ.ศ. 2541</p>
+                <p class="correct">ค. พ.ศ. 2542</p>
+                <p>ง. พ.ศ. 2543</p>
+            </div>
+        </div>
+
+        <div class="question">
+            <h3>คำถามที่ 8</h3>
+            <p>คำสอนของพระพุทธเจ้าในวันวิสาขบูชาเน้นถึงอะไร</p>
+            <div class="options">
+                <p class="correct">ก. การไม่ทำร้ายและการมีเมตตากรุณา</p>
+                <p>ข. การสร้างวัดใหม่</p>
+                <p>ค. การปฏิบัติธรรม</p>
+                <p>ง. การศึกษาธรรม</p>
+            </div>
+        </div>
+
+        <div class="question">
+            <h3>คำถามที่ 9</h3>
+            <p>พระพุทธเจ้าค้นพบอริยสัจ 4 ในการตรัสรู้ของพระองค์ที่ไหน</p>
+            <div class="options">
+                <p>ก. กุสินารา</p>
+                <p>ข. ลุมพินี</p>
+                <p>ค. สารนาถ</p>
+                <p class="correct">ง. พุทธคยา</p>
+            </div>
+        </div>
+
+        <div class="question">
+            <h3>คำถามที่ 10</h3>
+            <p>การฟังธรรมเทศนาในวันวิสาขบูชามีความสำคัญอย่างไร</p>
+            <div class="options">
+                <p class="correct">ก. เพื่อเรียนรู้และย้ำเตือนถึงคำสอนของพระพุทธเจ้า</p>
+                <p>ข. เพื่อแสดงความเคารพต่อพระสงฆ์</p>
+                <p>ค. เพื่อสร้างความสามัคคีในสังคม</p>
+                <p>ง. เพื่อปฏิบัติธรรมตามแนวทางของพระพุทธเจ้า</p>
+            </div>
+        </div>
+        <!-- เนื้อหาคำถามตามที่มี -->
+    </div>
+
+    <footer>
+        &copy; 2024 ข้อมูลวิสาขบูชา
+    </footer>
+</body>
+</html>
